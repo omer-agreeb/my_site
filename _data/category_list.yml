@@ -1,0 +1,14 @@
+#This file defines all the categories you are using
+
+ruby:
+  name: Ruby Blogs
+  description: Welcome to Ruby Blogs
+rails:
+  name: Rails Blogs
+  description: Welcome to Rails Blogs
+jekyll:
+  name: Jekyll Blogs
+  description: Welcome to Jekyll Blogs
+deployment:
+  name: Deployment Blogs
+  description: Welcome to Deployment Blogs

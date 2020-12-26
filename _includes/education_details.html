@@ -1,0 +1,20 @@
+<div class="column col-12" style="background-color: rgba(201, 64, 1, 0.158);">
+  <h4>Experiences</h4>
+
+  {% for experience in site.data.experiences %}
+  {% capture experience_name %}{{ experience | first }}{% endcapture %}
+  {% assign page_experience = site.data.experiences[experience_name] %}
+  <div class="column col-12">
+    <div class="card" style="background-color: rgb(223, 216, 154);">
+      <div class="card-body">
+        <div class="flex-vertical-center mb-4">
+          <div class="ml-2">
+            <p class="text-dark text-small mb-0"> {{ page_experience.name }} </p>
+          </div>
+        </div>
+        <p>{{ page_experience.description }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

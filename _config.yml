@@ -1,0 +1,64 @@
+title: Technology
+description: I hope they will benefit and enjoy
+url: http://alghreeb.me
+permalink: /:categories/:title
+teem: Alghreeb
+
+content_type: Technology
+use_authors: true
+use_experiences: true
+use_educations: true
+use_projects: false
+
+brand_logo: logo.png
+brand_name: Technology
+header: Hi I am Omer Alghreeb
+subheader: Developer with Ruby On Rails
+
+# Social Links
+twitter_username: Omer_Algreeb
+github_username:  omer-agreeb
+facebook_username: omer.algreeb
+linkedin_username: omer-algreeb-076940195
+instagram_username: omeralgreeb
+telegram_username: omer_algreeb
+repo_name: my_site
+email: omer.algreeb2019@gmail.com
+
+
+# Navivation
+nav_item_one: Github
+nav_item_one_link: https://github.com/omer-agreeb/my_site
+
+nav_item_two: Twitter
+nav_item_two_link: https://twitter.com/Omer_Algreeb
+
+nav_item_three:
+nav_item_three_link:
+
+nav_button_home: Home
+nav_button_home_link: /
+
+nav_button_about: About Me
+nav_button_about_link: /about
+
+# More Help
+help_one_title: Any Bugs
+help_one_content: If you find any bugs or problems with this theme, please open an issue over on Github.
+help_one_button: Github
+help_one_link: https://github.com/omer-agreeb/my_site/issues
+
+help_two_title: Twitter
+help_two_content: Feel free to tweet at me if you have suggestions for Technology. Or if you just want to say hi.
+help_two_button: Twitter
+help_two_link: https://twitter.com/Omer_Algreeb
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+sass:
+  sass_dir:          _scss
+  style:            :compressed

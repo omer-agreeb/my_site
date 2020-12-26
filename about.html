@@ -1,0 +1,32 @@
+---
+layout: default
+title: About me
+---
+{% include header-about.html %}
+
+<div class="container-full mt-16">
+  <div class="container grid-xl">
+    <div class="columns negative-m-s">
+
+      <div class="column col-12 text-center mt-16">
+        <div class="col-md-sm-2">
+          <img src="{{ site.baseurl }}/assets/omer.png" style="width: 150px; height: 150px;" />
+        </div>
+        <h4>Hi, I am Omer Alghreeb</h4>
+      </div>
+
+      {% if site.use_experiences == true %}
+      {% include experiences.html %}
+      {% endif %}
+
+      {% if site.use_educations == true %}
+      {% include education_details.html %}
+      {% endif %}
+
+      {% if site.use_projects == true %}
+      {% include project_details.html %}
+      {% endif %}
+
+    </div>
+  </div>
+</div>
